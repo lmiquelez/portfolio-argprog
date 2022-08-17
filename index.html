@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/icono.png">
+    <!--Tipografía-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet"> 
+    <!-- Íconos-->
+    <script src="https://kit.fontawesome.com/cd41e37ba4.js" crossorigin="anonymous"></script>
+    <!--Boootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Inicio | L - Miquelez</title>
+</head>
+<body>
+    
+    <!--Header-->
+     <header id="inicio" class="container-fluid header">
+
+         <!--En esta fila va la barra de navegación-->
+        <div class="row">
+            <div class="col header-nav">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img  src="imagenes/logo.png" alt="Lisandro Miquelez desarrollo web" width="200px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse botonera" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+                                
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#quienSoy">Quien soy</a>
+                                </li>
+                                
+                                <li class="nav-item ">
+                                    <a class="nav-link" href="#educacion">Educación</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#proyectos">Proyectos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contacto">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../portfolio/pages/login.html">Inicio de Sesión</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+
+        <!--En este contenedor va el texto del header-->
+        <div class="container-lg contenedor">
+
+            <div class="row justify-content-start">
+                <div class="col-6">
+                    <h1 class="display-1">Lisandro Miquelez</h1>
+                </div>
+                <div class="display-6 icon-lines"><i class="fa-solid fa-feather-pointed"></i></div>
+                <div class="row justify-content-start">
+                    <div class="col-4">
+                        <h3 class="display-5">Desarrollo Web</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="justify-end-to-center boton">
+                    <a class="btn btn-lg" href="#contacto">Contacto</a>
+            </div>
+
+        </div>
+    </header>
+
+ 
+    <!--About-->
+    <section id="quienSoy" class="container-fluid mt-3">
+        <div class="container py-4 contenedor">
+            <h2 class="display-6 mb-3 h2-lines">Sobre mí</h2>
+
+            <div class="row align-items-center py-3">
+                <div class="col-sm-4">
+                    <img src="imagenes/perfil.jpeg" alt="foto de lisandro miquelez " class="img-fluid">
+                </div>
+                <div class="col-sm-8 mt-3">
+                    <p class="fs-4">Mi nombre es Lisandro Miquelez. Además de Desarrollador Web soy Tecnico Electrónico y profesor de música. </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   
+
+    <!--Education-->
+    <section id="educacion" class="container-fluid">
+        <div class="container py-4 contenedor">
+            <h2 class="display-6 mb-3 h2-lines">Educación</h2>
+
+            <ul class="row justify-content-center list-unstyled mt-3">
+
+                <li class="col-12 card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <div class="edu-img"><img src="imagenes/argProg.png" alt="Norita" class="img-fluid"></div>
+                        </div> 
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title display-6 text-center">Argentina Programa</h4>
+                                <p class="card-text fs-4">Curso de desarrollo web Full Stack.</p>
+                                <div class="row justify-content-between">
+                                    <div class="col-md"><p class="fs-4"><span class="fw-bolder">Año:</span> 2021-2022 </p></div>
+                                    <div class="col-md text-center"><a href="#" class="btn btn-lg">Más info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                
+                <li class="col-12 card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <div class="edu-img"><img src="imagenes/coderhouse.png" alt="Pachorra" class="img-fluid"></div>
+                        </div> 
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title display-6 text-center">Desarrollo Web</h4>
+                                <p class="card-text fs-4">Curso de desarrollo web en donde aprendí sobre el uso de HTML, CSS, SASS, etc. </p>
+                                <div class="row justify-content-between">
+                                    <div class="col-md"><p class="fs-4"><span class="fw-bolder">Año:</span> 2021 </p></div>
+                                    <div class="col-md text-center"><a href="#" class="btn btn-lg">Más info</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="col-12 card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <div class="edu-img"><img src="imagenes/conser.png" alt="Norita" class="img-fluid"></div>
+                        </div> 
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title display-6 text-center">Conservatorio de Música - Juan P. Cruz</h4>
+                                <p class="card-text fs-4">Profesorado de Música, orientación Educación Musical.</p>
+                                <div class="row justify-content-between">
+                                    <div class="col-md"><p class="fs-4"><span class="fw-bolder">Año:</span> 2013-2020 </p></div>
+                                    <div class="col-md text-center"><a href="#" class="btn btn-lg">Más info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <li class="col-12 card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <div class="edu-img"><img src="imagenes/escuela.jpeg" alt="Norita" class="img-fluid"></div>
+                        </div> 
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title display-6 text-center">E.E.S.T N1</h4>
+                                <p class="card-text fs-4">Tecnicatura en Electrónica en la escuela industrial de Junín.</p>
+                                <div class="row justify-content-between">
+                                    <div class="col-md"><p class="fs-4"><span class="fw-bolder">Año:</span> 2008-2011 </p></div>
+                                    <div class="col-md text-center"><a href="#" class="btn btn-lg">Más info</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section id="proyectos" class="container-fluid background-grey">
+        <div class="container py-4 contenedor">
+            <h2 class="display-6 mb-3 h2-lines">Proyectos</h2>
+            <p class="fs-4">Estos son los proyectos realizados:</p>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6 ">
+                    <div class="card shadow m-3 card-height1">
+                        <div>
+                            <img src="imagenes/portfolio.png" alt="Vuelo a Iruyá" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title display-5 text-center">Portfolio</h5>
+                            <p class="card-text fs-4">Portfolio realizado para el curso Argentina Programa 2da edición </p>
+                            <div class="row justify-content-between mb-3">
+                                <div class="col-md"><p class="fs-4"> <span class="fw-bolder">Año:</span> 2022 </p></div><div class="col-md text-center"><a href="https://lmiquelez.github.io/portfolio" class="btn btn-lg">Al sitio</a></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <div class="card shadow m-3 card-height1">
+                        <div>
+                            <img src="imagenes/bordolino.png" alt="Salto Berrondo Oberá" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title display-5 text-center">Trovarte</h5>
+                            <p class="card-text fs-4">Trabajo práctico final para el titulo de desarrollador web entregado por Coder House. </p>
+                            <div class="row justify-content-between mb-3">
+                                <div class="col-md"><p class="fs-4"><span class="fw-bolder">Año:</span> 2019 </p></div><div class="col-md text-center"><a href="https://lmiquelez.github.io/" class="btn btn-lg">Al sitio</a></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+               <!-- <div class="col-lg-6 ">
+                    <div class="card shadow m-3 card-height1">
+                        <div>
+                            <img src="imagenes/barn-swallow.jpg" alt="Nido golondrina" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title display-5 text-center">Anidar en Buenos Aires</h5>
+                            <p class="card-text fs-4">Ciudad de Buenos Aires o Ciudad Autónoma de Buenos Aires (CABA) también llamada Capital Federal, por ser la sede del gobierno nacional, es la capital y ciudad más poblada de la República Argentina. Tiene sus propios poderes ejecutivo, legislativo y judicial.  </p>
+                            <div class="row justify-content-between mb-3">
+                                <div class="col-md"><p class="fs-4"><span class="fw-bolder">Año:</span> 2021 </p></div><div class="col-md text-center"><a href="https://es.wikipedia.org/wiki/Buenos_Aires" class="btn btn-lg">Al sitio</a></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contacto" class="container-fluid">
+        <div class="container py-4 contenedor">
+            <h2 class="display-6 mb-3 h2-lines">Contacto</h2>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card shadow card-height mb-3">
+                        <div class="contact-img fs-3">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="card-body mb-3">
+                            <h5 class="card-title text-center fs-3">UBICACIÓN</h5>
+                            <p class="card-text text-center fs-5">Junín, Buenos Aires, Argentina</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4">
+                    <div class="card shadow card-height mb-3">
+                        <div class="contact-img fs-3">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="card-body mb-3">
+                            <h5 class="card-title text-center fs-3">EMAIL</h5>
+                            <p class="card-text text-center fs-5">lmiquelez@hotmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card shadow card-height mb-3">
+                        <div class="contact-img fs-3">
+                            <i class="fa-solid fa-hashtag"></i>
+                        </div>
+                        <div class="card-body mb-3">
+                            <h5 class="card-title text-center fs-3">SOCIAL MEDIA</h5>
+                            <p class="card-text text-center fs-4">
+                                <a href="https://github.com/lmiquelez"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/lisandro-miquelez-014347227/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/lichi_miquelez/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/lmiquelez/"><i class="fa-brands fa-facebook"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col p-3 shadow mt-3">
+                    <form name="formulario" action="#" method="post">
+                        <div class="row g-3 py-3">
+                            <div class="col-md-6">
+                              <input type="text" class="form-control fs-5" placeholder="Ingresá tu nombre" aria-label="Ingresa tu nombre" required name="nombre">
+                            </div>
+                            <div class="col-md-6">
+                              <input type="email" class="form-control fs-5" placeholder="Ingresá tu correo" aria-label="Ingresa tu correo" id="inputEmail" required name="email">
+                            </div>
+                            <div class="col">
+                                <textarea class="form-control fs-5" placeholder="Dejame tus comentarios" style="height: 100px" required name="mensaje"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" name="submit" class="btn btn-lg">Enviar mensaje</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="row">
+            <div class="col gy-3 footer text-dark">
+                <p class="text-center mt-3">Proyecto de portfolio  en el marco de la capacitación Argentina Programa - 2022</p>
+            </div>
+        </div>
+    </footer>
+    <!--Bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>login email y clave</title>
+<script src="bower_components/firebase/firebase.js'"></sc
+<script>
+var ref = new Firebase("https://juegosdemesa.firebaseio.com")
+
+ref .onAuth(function(data){ 
+ if(data) {
+    console.log("El user está autenticado", data.uid)
+
+} else {
+    console.log('"no tengo usuario autenticado");
+ }
+ });
+
+
+
+
+
+
+var user = { 
+email: "malvarezedesarrolloweb.com",
+password: "1234"
+ };
+ref.createUser(user, function(error){
+
+}
+if(error) {
+    console.log(error.code);
+} else { 
+    console.log("Tu usuario se ha registrado");
+}
+
+ }) ;
+
+
+
+<ref.authWithPassword (user);
